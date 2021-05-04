@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-homework-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halyna30/nodejs-homework-1.git"
+  },
+  "author": "Halyna Pryn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Halyna30/nodejs-homework-1/issues"
+  },
+  "homepage": "https://github.com/Halyna30/nodejs-homework-1#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "nodemon": "^2.0.7",
+    "yargs": "^17.0.1"
+  }
+}
