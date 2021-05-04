@@ -24,7 +24,7 @@ async function writeFiles(path, data) {
 async function listContacts() {
   try {
     const contacts = await readFiles(contactsPath);
-    console.log(contacts);
+    console.table(contacts);
     return contacts;
   } catch (err) {
     console.log(err);
